@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/ingredients_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_padding"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recipe_details_image_view_height"
+        android:layout_marginBottom="@dimen/layout_padding"
+        android:scaleType="centerCrop"
+        tool:src="@drawable/drawable_nutella_pie" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_between_text_views"
+            android:textSize="@dimen/ingredients_item_title_text_size"
+            android:textStyle="bold"
+            tool:text="Nutella Pie " />
+
+        <TextView
+            android:id="@+id/tv_recipe_servings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_between_text_views"
+            android:textSize="@dimen/ingredients_item_main_text_size"
+            tool:text="(8 servings)" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_between_text_views"
+        android:text="@string/ingredients_list_item_ingredients_label"
+        android:textSize="@dimen/ingredients_item_label_size" />
+
+    <TextView
+        android:id="@+id/tv_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_between_text_views"
+        android:textSize="@dimen/ingredients_item_main_text_size"
+        tool:text="@string/test_string_recipe_ingredients" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredients_list_item_cook_directions_label"
+        android:textSize="@dimen/ingredients_item_label_size" />
+
+</LinearLayout>

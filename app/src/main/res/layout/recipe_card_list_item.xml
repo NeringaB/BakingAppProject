@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a list item for a list of recipes in the RecipesActivity.
+     It is a CardView which contains recipe image, recipe name,
+     "COOK" TextView which stands for a button and ToggleButton -->
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_padding_card_list"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recipe_card_height"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_recipe_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recipe_card_image_height"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/drawable_nutella_pie" />
+
+        <TextView
+            android:id="@+id/tv_recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_recipe_image"
+            android:layout_marginLeft="@dimen/layout_padding"
+            android:layout_marginTop="@dimen/padding_between_text_views"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/recipe_card_recipe_title_text_size"
+            android:textStyle="bold|italic"
+            tools:text="Nutella Pie" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center_vertical"
+            android:layout_margin="@dimen/layout_padding"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_cook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/recipe_card_cook_button_right_margin"
+                android:text="@string/recipe_card_cook_button_label"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/recipe_card_cook_button_text_size" />
+
+            <ToggleButton
+                android:id="@+id/tb_heart"
+                android:layout_width="@dimen/recipe_card_heart_button_width_and_height"
+                android:layout_height="@dimen/recipe_card_heart_button_width_and_height"
+                android:background="@drawable/toggle_button_heart"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="@color/colorAccent"
+                android:textOff=""
+                android:textOn="" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

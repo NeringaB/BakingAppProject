@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_padding">24dp</dimen>
+
+    <dimen name="recipe_details_fragment_width">500dp</dimen>
+
+    <dimen name="recipe_details_image_view_height">242dp</dimen>
+
+    <dimen name="ingredients_item_title_text_size">28sp</dimen>
+    <dimen name="ingredients_item_label_size">26sp</dimen>
+    <dimen name="ingredients_item_main_text_size">22sp</dimen>
+
+    <dimen name="step_list_item_text_size">22sp</dimen>
+
+    <dimen name="recipe_step_title_text_size">26sp</dimen>
+    <dimen name="recipe_step_main_text_size">22sp</dimen>
+    <dimen name="recipe_step_button_text_size">24sp</dimen>
+    <dimen name="layout_padding_exo_player_tablet_portrait">24dp</dimen>
+
+    <dimen name="exo_player_view_height">400dp</dimen>
+
+</resources>

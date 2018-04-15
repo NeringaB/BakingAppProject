@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/step_list_item_padding_between_steps"
+    android:layout_marginLeft="@dimen/layout_padding"
+    android:layout_marginRight="@dimen/layout_padding"
+    android:background="@drawable/step_list_item_drawable"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_between_text_views">
+
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/step_list_item_text_size"
+        tool:text="Recipe Introduction" />
+
+</LinearLayout>

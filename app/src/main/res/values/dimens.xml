@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="circular_progress_bar_width_and_height">42dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+
+    <dimen name="layout_padding_card_list">8dp</dimen>
+    <dimen name="padding_between_text_views">8dp</dimen>
+
+    <dimen name="recipe_card_height">288dp</dimen>
+    <dimen name="recipe_card_image_height">192dp</dimen>
+    <dimen name="recipe_card_recipe_title_text_size">24sp</dimen>
+    <dimen name="recipe_card_cook_button_right_margin">40dp</dimen>
+    <dimen name="recipe_card_cook_button_text_size">18sp</dimen>
+    <dimen name="recipe_card_heart_button_width_and_height">30dp</dimen>
+
+    <dimen name="recipe_details_image_view_height">180dp</dimen>
+
+    <dimen name="ingredients_item_title_text_size">22sp</dimen>
+    <dimen name="ingredients_item_label_size">20sp</dimen>
+    <dimen name="ingredients_item_main_text_size">16sp</dimen>
+
+    <dimen name="step_list_item_text_size">16sp</dimen>
+    <dimen name="step_list_item_padding_between_steps">1dp</dimen>
+
+    <dimen name="recipe_step_title_text_size">20sp</dimen>
+    <dimen name="recipe_step_main_text_size">16sp</dimen>
+    <dimen name="recipe_step_button_text_size">18sp</dimen>
+
+    <dimen name="exo_player_view_height">190dp</dimen>
+    <dimen name="exo_player_time_text_view_padding">4dp</dimen>
+    <dimen name="exo_player_time_text_view_text_size">14sp</dimen>
+    <dimen name="exo_player_height">32dp</dimen>
+    <dimen name="exo_player_width">0dp</dimen>
+
+    <dimen name="widget_empty_view_text_view_width">200dp</dimen>
+    <dimen name="widget_main_text_view_size">20sp</dimen>
+    <dimen name="widget_recipe_title_text_view_size">24sp</dimen>
+
+</resources>

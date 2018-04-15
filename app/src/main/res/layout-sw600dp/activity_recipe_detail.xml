@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This fragment displays recipe details: ingredients and steps how to cook -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recipe_detail_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.android.bakingapp.RecipeDetailActivity">
+
+    <FrameLayout
+        android:id="@+id/recipe_detail_fragment_container"
+        android:layout_width="@dimen/recipe_details_fragment_width"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+
+    <FrameLayout
+        android:id="@+id/recipe_step_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
